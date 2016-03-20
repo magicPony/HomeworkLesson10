@@ -29,6 +29,7 @@ public class HeartFragment extends Fragment {
         sbAlpha.setOnSeekBarChangeListener(new CustomSeekBarListener(vHeart, Constants.SB_ALPHA_TAG));
         sbRotate.setOnSeekBarChangeListener(new CustomSeekBarListener(vHeart, Constants.SB_ROTATE_TAG));
         sbScale.setOnSeekBarChangeListener(new CustomSeekBarListener(vHeart, Constants.SB_SCALE_TAG));
+        sbAlpha.setProgress(100);
     }
 
     private void initViews(View view) {
