@@ -1,0 +1,22 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="tv_text_AM">150dp</dimen>
+    <dimen name="iv_ball_width">100dp</dimen>
+    <dimen name="iv_ball_height">100dp</dimen>
+    <dimen name="text_size_AM">20sp</dimen>
+    <dimen name="padding_AM">10dp</dimen>
+    <dimen name="margin_top_AM">10dp</dimen>
+    <dimen name="margin_bottom_AM">10dp</dimen>
+    <dimen name="side_margin_AM">5dp</dimen>
+    <dimen name="iv_ball_margin_top_FB">10dp</dimen>
+    <dimen name="iv_heart_margin_top_FH">70dp</dimen>
+    <dimen name="ic_heart_width_FH">100dp</dimen>
+    <dimen name="ic_heart_height_FH">100dp</dimen>
+    <dimen name="iv_settings_size_FH">50dp</dimen>
+    <dimen name="iv_settings_padding_FH">10dp</dimen>
+    <dimen name="sb_width_FH">200dp</dimen>
+    <dimen name="sb_height_FH">50dp</dimen>
+    <dimen name="rl_settings_margin_bottom_FH">20dp</dimen>
+</resources>
