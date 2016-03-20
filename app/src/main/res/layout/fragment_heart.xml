@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#d50000"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:background="#ffffff"
+        android:layout_marginBottom="@dimen/activity_vertical_margin"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/iv_heart"
+            android:layout_marginTop="@dimen/iv_heart_margin_top_FH"
+            android:src="@drawable/ic_heart"
+            android:layout_centerHorizontal="true"
+            android:layout_width="@dimen/ic_heart_width_FH"
+            android:layout_height="@dimen/ic_heart_height_FH" />
+
+        <RelativeLayout
+            android:id="@+id/rl_scale"
+            android:layout_marginBottom="@dimen/rl_settings_margin_bottom_FH"
+            android:layout_alignParentBottom="true"
+            android:background="#d50000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <SeekBar
+                android:id="@+id/sb_scale"
+                android:layout_width="@dimen/sb_width_FH"
+                android:layout_height="@dimen/sb_height_FH" />
+
+            <ImageView
+                android:padding="@dimen/iv_settings_padding_FH"
+                android:layout_toRightOf="@id/sb_scale"
+                android:src="@drawable/ic_scale"
+                android:layout_width="@dimen/iv_settings_size_FH"
+                android:layout_height="@dimen/iv_settings_size_FH" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_marginBottom="@dimen/rl_settings_margin_bottom_FH"
+            android:layout_above="@id/rl_scale"
+            android:id="@+id/rl_rotate"
+            android:background="#d50000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <SeekBar
+                android:id="@+id/sb_rotate"
+                android:layout_width="@dimen/sb_width_FH"
+                android:layout_height="@dimen/sb_height_FH" />
+
+            <ImageView
+                android:padding="@dimen/iv_settings_padding_FH"
+                android:src="@drawable/ic_rotate"
+                android:layout_toRightOf="@id/sb_rotate"
+                android:layout_width="@dimen/iv_settings_size_FH"
+                android:layout_height="@dimen/iv_settings_size_FH" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_marginBottom="@dimen/rl_settings_margin_bottom_FH"
+            android:layout_above="@id/rl_rotate"
+            android:background="#d50000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <SeekBar
+                android:id="@+id/sb_alpha"
+                android:layout_width="@dimen/sb_width_FH"
+                android:layout_height="@dimen/sb_height_FH" />
+
+            <ImageView
+                android:padding="@dimen/iv_settings_padding_FH"
+                android:src="@drawable/ic_alpha"
+                android:layout_toRightOf="@id/sb_alpha"
+                android:layout_width="@dimen/iv_settings_size_FH"
+                android:layout_height="@dimen/iv_settings_size_FH" />
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>

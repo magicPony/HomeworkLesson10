@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/mi_ball"
+        android:title="Ball"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/mi_recycler_view"
+        android:title="C/E list"
+        android:showAsAction="never" />
+
+    <item
+        android:id="@+id/mi_heart"
+        android:title="Heart"
+        android:showAsAction="never" />
+
+</menu>
